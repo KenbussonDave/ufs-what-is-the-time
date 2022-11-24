@@ -26,7 +26,6 @@ body {
   font-weight: 600;
 }
 .box input[type="text"],
-[type="email"],
 [type="password"] {
   display: block;
   margin: 8px auto;
@@ -39,7 +38,6 @@ body {
   outline: none;
 }
 .box input[type="text"]:focus,
-[type="email"]:focus,
 [type="password"]:focus {
   width: 280px;
   transition: 0.25s;
@@ -55,16 +53,15 @@ body {
   padding: 15px 20px;
 }
 .box input[type="submit"]:hover {
-    background-color:rgb(149, 178, 245) ;
-    border-color: rgb(149, 178, 245);
-    color: rgb(9, 73, 73);
+  background-color: rgb(149, 178, 245);
+  border-color: rgb(149, 178, 245);
+  color: rgb(9, 73, 73);
 }
-.box p{
-    text-transform: capitalize;
-    color: #9c9c9c;
+.box p {
+  text-transform: capitalize;
+  color: #9c9c9c;
 }
-.box p a{
-    text-decoration: none;
-    color: rgb(9, 73, 73);
-
+.box p a {
+  text-decoration: none;
+  color: rgb(9, 73, 73);
 }
