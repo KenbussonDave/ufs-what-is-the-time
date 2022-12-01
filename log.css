@@ -57,11 +57,11 @@ body {
   border-color: rgb(149, 178, 245);
   color: rgb(9, 73, 73);
 }
-.box p {
+.box p{
   text-transform: capitalize;
   color: #9c9c9c;
 }
-.box p a {
+.box p a{
   text-decoration: none;
   color: rgb(9, 73, 73);
 }
