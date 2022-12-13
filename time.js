@@ -21,9 +21,9 @@ function runSpeechRecognition() {
         action.innerHTML = "<small>stopped listening, hope you are done...</small>";
         recognition.stop();
     }
-    // stopped here on saturday 3rd of December
+ 
 
-    // This runs when the speech recognition service returns result
+     
     recognition.onresult = function (event) {
         var transcript = event.results[0][0].transcript;
         var confidence = event.results[0][0].confidence;
@@ -32,9 +32,9 @@ function runSpeechRecognition() {
         read(transcript)
     };
 
-    // start recognition
+    
     recognition.start();
-    /* --------- JS Reads Out text -------- */
+   
     function read(transcript) {
         var todayHours = "";
         var todayMinutes = "";
@@ -70,5 +70,5 @@ function runSpeechRecognition() {
         response.classList.remove("hide");
         runSpeechRecognition();
     }
-    /* --------- JS Reads Out text -------- */
+    
 }
