@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: auto;
+            background-color: #33395e;
+            text-align: center;
+        }
+        button{
+            width: 150px;
+            padding: 1rem;
+            border-radius: 10px;
+            background-color: #808fee;
+        }
+        #output, #response {
+          background-color: #F9F9F9;
+          padding: 10px;
+          width: 100%;
+          margin-top: 20px;
+          line-height: 30px;
+      }
+
+      .hide {
+          display: none;
+      }
+
+      .show {
+          display: block;
+      }
+    </style>
+    <title>The Time AI</title>
+</head>
+<body>
+    <h1 style=" color:#fff;">Here is UFS Time AI</h1>
+    <h2>Do you want to know what time it is? <br> Click the button below </h2>
+    <button onclick="runSpeechRecognition()">Get the Time</button> &nbsp; <span id="action"></span></p>
+    <div id="output" class="hide"></div>
+    <div id="response" class="hide"></div>
+<script src="../ufs-what-is-the-time/time.js"></script>
+</body>
+</html>
