@@ -45,7 +45,7 @@ body {
   transition: 0.25s;
   border-color: rgb(149, 178, 245);
 }
-.box input[type="submit"] {
+.box input[type="button"] {
   background: none;
   text-align: center;
   border: 4px solid #9c9c9c;
@@ -54,7 +54,7 @@ body {
   border-radius: 40px;
   padding: 15px 20px;
 }
-.box input[type="submit"]:hover {
+.box input[type="button"]:hover {
     background-color:rgb(149, 178, 245) ;
     border-color: rgb(149, 178, 245);
     color: rgb(9, 73, 73);
